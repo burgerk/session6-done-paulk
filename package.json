@@ -1,0 +1,25 @@
+{
+  "name": "6-Basilica",
+  "version": "1.0.0",
+  "description": "rev 102318",
+  "main": "index.js",
+  "scripts": {
+    "startSass": "node-sass --watch scss/styles.scss --output app/css/",
+    "startmac": "browser-sync start --browser 'google chrome' --server 'app' --files 'app'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front-end-foundations/6-Basilica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/front-end-foundations/6-Basilica/issues"
+  },
+  "homepage": "https://github.com/front-end-foundations/6-Basilica#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.9.4"
+  }
+}
